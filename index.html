@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بازی سنگ کاغذ قیچی</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    
+    <h1>سنگ - کاغذ - قیچی</h1>
+
+    <div class="choices">
+        <button onclick="playGame('rock')">👊</button>
+        <button onclick="playGame('paper')">🤚</button>
+        <button onclick="playGame('scissors')">✌️</button>
+    </div>
+
+
+    <div class="infos-player">
+        <div id="playerDisplay">شما </div>
+        <div id="computerDisplay">کامپیوتر </div>
+    </div>
+    <div id="resultDisplay"></div>
+
+
+    <div class="scoreDisplayWrapper">
+        <div class="scoreDisplay">امتیاز شما : 
+            <span class="playerScoreDisplay">0</span>
+        </div>
+        <div class="scoreDisplay">امتیاز کامپیوتر : 
+            <span class="computerScoreDisplay">0</span>
+        </div>
+    </div>
+
+    <button id="reset-btn" type="reset">بازی از اول</button>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
